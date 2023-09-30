@@ -1,0 +1,15 @@
+.bannerclass{
+  z-index: 0000;
+}
+.mySwiper img {
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imaga{
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+
+  }
