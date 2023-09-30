@@ -14,7 +14,7 @@ const Banner = () => {
   const [banners, setBanners] = useState([]);
 
   useEffect(() => {
-     axios.get('http://localhost:3030/bannerRoute/')
+     axios.get('https://noormahal-api.onrender.com/bannerRoute/')
       .then((response) => {
         //console.log(response.data);
         setBanners(response.data);

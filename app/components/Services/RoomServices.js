@@ -9,7 +9,7 @@ const RoomServices = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-     axios.get('http://localhost:3030/cardRoute') 
+     axios.get('https://noormahal-api.onrender.com/cardRoute') 
           .then((response) => {
         setCards(response.data);
       })
