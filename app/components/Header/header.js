@@ -66,7 +66,7 @@ const Header = () => {
              src="/pics/nmlogo.png"
              width={80}
              height={80}
-             alt="Profile picture"
+             alt="Noormahal"
            /> 
            </a>
       </h1>

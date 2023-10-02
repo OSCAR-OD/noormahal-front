@@ -14,3 +14,9 @@ npx prisma migrate dev
 gt 
 1. 2 no portfolio
 2. Start frontend city hub
+///for booking
+npm i @fortawesome/fontawesome-svg-core, @fortawesome/free-regular-svg-icons, @fortawesome/free-solid-svg-icons, @fortawesome/react-fontawesome
+npm i date-fns, react-date-range
+3. try noormahal from github
+
+

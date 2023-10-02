@@ -1,5 +1,9 @@
 .section-title{
-text-align: center;
+  color: var(--main-gold);
+  font-size: 32px;
+  text-align: center;
+  font-family: var(--ff-timeFontRegular);
+  font-weight: var(--fw-400);
 }
 .forbullet li{
   list-style-type: disc; 
@@ -119,6 +123,13 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
+  .section-title{
+    color: var(--main-gold);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--ff-timeFontRegular);
+    font-weight: var(--fw-400);
+  }
   .category .grid-list { grid-template-columns: repeat(1, 1fr); }
 
   .card {
@@ -156,6 +167,13 @@ text-align: center;
 }
 
 @media (max-width: 480px) {
+  .section-title{
+    color: var(--main-gold);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--ff-timeFontRegular);
+    font-weight: var(--fw-400);
+  }
   .card {
     width: 345px;
   height: 430px;

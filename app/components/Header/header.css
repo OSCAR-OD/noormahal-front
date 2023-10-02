@@ -195,6 +195,7 @@
     min-height: 50px;
     padding-inline: 25px;
     transition: var(--transition-1);
+    margin-top: -43px;
   }
 
   .login-btn ion-icon { --ionicon-stroke-width: 70px; }

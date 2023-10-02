@@ -17,7 +17,7 @@ const Hero = () => {
       src="/hero.jpg" 
       alt="Profile picture" /> */}
       
-      <h2 className="hero__subtitle">OUR<br />
+      <h2 className="hero__title">OUR<br />
 LUXURIOUS STAY</h2>
       
       {/* <h1 className="hero__title">

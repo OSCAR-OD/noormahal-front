@@ -1,6 +1,8 @@
 "use client"
 import Banner from "../components/Banner/Banner";
 import BookForm from "../components/BookForm/BookForm";
+import NewBookForm from "../components/BookForm/NewBookForm";
+import SearchForm from "../components/BookForm/SearchForm";
 import Hero from "../components/Hero/Hero";
 import Services from "../components/Services/Services";
 import InRoomServices from "../components/Services/InRoomServices";
@@ -13,9 +15,11 @@ const HomePage = () => {
       <BookForm />
       <Hero />
       <RoomServices />
-      {/* <Services /> */}
+    {/* <NewBookForm />
+      <SearchForm /> 
+       <Services />  */}
       <InRoomServices />
-    
+     
     </main>
   );
 };
